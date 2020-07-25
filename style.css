@@ -4,7 +4,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    margin: 0 10px;
 }
 .output input{
     background-color: #686868;
@@ -35,4 +35,7 @@ body{
 }
 .calculator .buttons button:active{
     background-color: #aaa9a9;
+}
+.calculator .buttons button:focus{
+    outline: 0;
 }
